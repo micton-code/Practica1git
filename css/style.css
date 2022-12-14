@@ -51,9 +51,15 @@ header{
 }
 
 #hero .informacion-contenedor {
+    font-size: 1.6rem;
     position: absolute;
-    top: 0;
+    top: 50%;
+    transform:  translateY(-50%);
     left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 0 5rem;
+    display: flex;
 }
 
 #hero .informacion-contenedor #foto {
@@ -62,4 +68,15 @@ header{
 
 #hero .informacion-contenedor #foto img {
     border-radius: 100%;
+}
+
+#hero .informacion-contenedor .informacion {
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+#hero .informacion-contenedor .informacion span {
+    color: #b5b5b5;
+    margin-bottom: 10rem;
+    display: inline-block;
 }
